@@ -1,0 +1,89 @@
+body {
+  padding: 7em;
+}
+table{
+  border: 1px solid grey;
+  width: 100%;
+  margin:1em auto;
+}
+td {
+  padding: 1em;
+  padding-left: 2em;
+}
+td:nth-child(odd){
+  width:10em;
+}
+tr:nth-child(odd) {
+  background-color: #FFECEC;
+}
+tr:nth-child(even) {
+  background-color: #DAFFFF;
+}
+#theTitle {
+  color: #FFFFFF;
+  text-shadow: 3px 3px 10px #F64FA5;
+  margin-bottom:0px;
+  margin: 0.75em auto;
+  margin-left: 16px;
+  font-size: 36px;
+  float: left;
+}
+
+#navBar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: green;
+  height: 7em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#navBar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: green;
+  height: 7em;
+  width: 100%;
+  margin: 0 auto;
+}
+#theTitle a{
+  text-decoration:none;
+  color: white;
+}
+#logo {
+  height: 5em;
+  width: 5em;
+  margin: 1em;
+  float: left;
+}
+#navBar ul {
+    margin:0 auto;
+    height: 1em;
+    width: auto;
+    margin-top: 0.5em;
+    float: right;
+    padding:2em;
+    line-height:30px;
+ }
+
+#navBar li {
+    background: white;
+    margin:0px 7px 0px 7px;
+    padding:0;
+    list-style:none;
+    float:left;
+    position:relative;
+    border-radius:10px;
+    border:1px solid black;
+ }
+
+#navBar ul li a {
+    text-align:center;
+    height:30px;
+    width:150px;
+    display:block;
+  text-decoration:none;
+ }
+

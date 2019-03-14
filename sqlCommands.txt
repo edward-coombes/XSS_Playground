@@ -1,0 +1,12 @@
+﻿### SQL COMMANDS ###
+mysql -u root -p
+
+CREATE USER 'death'@'localhost' IDENTIFIED BY 'Pa$$word';
+
+CREATE DATABASE garbage;
+
+CREATE TABLE garbage.guestbook;
+
+CREATE TABLE garbage.users;
+
+CREATE TABLE garbarge.sessionLogs;
